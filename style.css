@@ -1,0 +1,108 @@
+.logo {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+body {
+    background-image: url('https://img.thuthuat123.com/uploads/2019/06/11/hinh-nen-meo-dang-yeu-dep_093847518.jpg');
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.circle {
+    margin-right: 10px;
+}
+
+.nav>li {
+    float: left;
+    margin-right: 15px;
+}
+
+
+.nav li {
+    position: relative;
+    list-style: none;
+}
+
+.nav li a {
+    padding: 10px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.nav .sub-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    background-color: black;
+    padding: 5px 20px;
+}
+
+.nav li:hover>.sub-menu {
+    display: block;
+}
+
+.nav>li>.sub-menu {
+    top: 40px;
+    left: 0;
+}
+.nav-wrapper
+{
+    margin-left: auto;
+}
+.logo {
+    flex-shrink: 0; 
+    margin-right: auto;
+}
+.rectangle {
+    padding: 10px;
+    flex-grow: 1;
+}
+h1 {
+    font-size:80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
